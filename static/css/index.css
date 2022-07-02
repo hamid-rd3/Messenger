@@ -75,3 +75,10 @@
     padding: 10px;
     margin: 5px;
 }
+
+.chat-top {
+    background-color: #da831f;
+    min-height: 50px;
+    border-radius: 20px;
+
+  }
