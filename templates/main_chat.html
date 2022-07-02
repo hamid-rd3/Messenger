@@ -16,16 +16,17 @@
     </div>
 
     <div class="container front-container1">
-        <div class="row chat-top">
+         <div class="row chat-top">
             <div class="col-sm-4 border-right border-secondary">
                 <img src="{% static 'assets/dp-icon.png' %}" width="30" height="30"
-                    class="profile-image rounded-circle" style="margin-left: 0.5rem;">
+                    class="profile-image rounded-circle" style="margin-left: 0.5rem; margin-top: 0.5rem;">
+
                 <span class="ml-2">{{request.user.username}}</span>
             </div>
 
             <div class="col-sm-8">
                 <img src="{% static 'assets/dp-icon.png' %}" width="30" height="30" alt=""
-                    class="profile-image rounded-circle">
+                    class="profile-image rounded-circle" style="margin-top:0.5rem;">
                 <span class="ml-2">{{user.username}}</span>
             </div>
         </div>
@@ -42,7 +43,7 @@
                                 <td><img src="{% static 'assets/dp-icon.png' %}" width="30" height="30"
                                         class="profile-image rounded-circle">
                                 </td>
-                                <td><a href="{% url 'chat' username=user.username %}">{{user.username}}</a></td>
+                                <td><a href="{% url 'chat' username=user.username %}" id="user">{{user.username}}</a></td>
                             </tr>
                             {% endfor %}
                         </tbody>

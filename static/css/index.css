@@ -63,10 +63,13 @@
 .message-table-scroll {
     overflow-y: scroll;
     height: 550px;
+
+    color: #2200fd;
+
 }
 
 .message-box {
-    background-color: #16063b;
+    background-color: #9c8fb9;
     color: #441212;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +78,7 @@
 }
 
 .btn {
-    background-color: #a90101;
+    background-color: #a5e119;
     border-radius: 10px;
     color: #ffffff;
     font-weight: bold;
@@ -84,6 +87,9 @@
     margin: 5px;
 }
 
+.form-control{
+    color: #2200fd;
+}
 /* 
 .row{
     --bs-gutter-x: 1.5rem;
@@ -116,5 +122,6 @@
     background-color: #da831f;
     min-height: 50px;
     border-radius: 20px;
+    
 
   }
