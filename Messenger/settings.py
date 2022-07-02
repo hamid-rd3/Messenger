@@ -72,7 +72,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "Messenger.wsgi.application"
+# WSGI_APPLICATION = "Messenger.wsgi.application"
+ASGI_APPLICATION = "Messenger.asgi.application"
 
 
 # Database
