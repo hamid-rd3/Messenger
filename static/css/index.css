@@ -1,0 +1,14 @@
+.back-container {
+    position: relative;
+}
+
+
+.back-top {
+    background-color: #c00000;
+    height: 15vh;
+}
+
+.back-main {
+    background-color: #000000;
+    height: 85vh;
+}
