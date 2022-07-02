@@ -15,3 +15,9 @@ def index(request):
     """Render the index.html file and exclude the current user."""
     users = user.objects.exclude(username=request.user.username)
     return render(request, "index.html", context={"users": users})
+
+
+def chatPage(request):
+    """Render the main_chat.html file and exclude the current user."""
+    users = user.objects.exclude(username=request.user.username)
+    return render(request, "main_chat.html", context={"users": users})
