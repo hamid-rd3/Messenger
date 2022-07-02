@@ -3,12 +3,12 @@
 }
 
 .back-top {
-    background-color: #8a4fe9;
+    background-color: #ffba2f;
     height: 20vh;
 }
 
 .back-main {
-    background-color: #ff0ad6;
+    background-color: #0fbea7;
     height: 80vh;
 }
 
@@ -42,6 +42,11 @@
     overflow: scroll;
     height: 700px;
     background-color: #2d2d2d;
+
+    /* background-image: url("https://wallpaperscart.com/whatsapp-wallpapers-backgrounds/"); */
+    background-image: url("https://www.wallpapertip.com/wmimgs/7-74825_best-wallpaper-for-whatsapp.jpg");
+    
+
 }
 
 .table-hover {
@@ -53,7 +58,7 @@
     background-color: #323232;
     min-height: 600px;
     border-radius: 10px;
-
+    
     background-image: url("https://cdn.wallpapersafari.com/87/66/g7uPjL.jpg");
     
     background-size: cover ;
@@ -69,20 +74,28 @@
 }
 
 .message-box {
-    background-color: #9c8fb9;
-    color: #441212;
+    background-color: cadetblue;
+    opacity: 0.9;
+    border-radius: 1.5rem;
+    color: #ff0404;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
     
     
 }
+#message_input{
+    width: 120%;
+    font-family:'Times New Roman', Times, serif
+}
 
 .btn {
-    background-color: #a5e119;
+    background-color: #19d668;
     border-radius: 10px;
     color: #ffffff;
     font-weight: bold;
     font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     margin: 5px;
 }
@@ -92,8 +105,16 @@
 }
 
 #user_chat-top{
-    color: #a5e119;
+    color: hsl(353, 82%, 15%);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+}
+
+#iconblock_chat-top{
+    background-color: rgb(78, 111, 174 );
+    border-radius: 1rem;
+    /* background-color: #0fbea7; */
 }
 /* 
 .row{
@@ -124,7 +145,8 @@
     background: rgb(220, 36, 36); 
     }
 .chat-top {
-    background-color: #da831f;
+    /* background-color: #da831f; */
+    background-color: cadetblue;
     min-height: 50px;
     border-radius: 20px;
     
