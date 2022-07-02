@@ -59,7 +59,7 @@ ROOT_URLCONF = "Messenger.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join("templates", BASE_DIR)],
+        "DIRS": [os.path.join(BASE_DIR, 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -123,9 +123,9 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-STATICFILE_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILE_DIRS = [os.path.join(BASE_DIR, "static")]
 
-STATIC_ROOTS = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn')
+STATIC_ROOTS = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
