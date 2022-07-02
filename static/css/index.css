@@ -60,3 +60,18 @@
     overflow-y: scroll;
     height: 550px;
 }
+
+.message-box {
+    background-color: #393939;
+    color: #441212;
+}
+
+.btn {
+    background-color: #a90101;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
