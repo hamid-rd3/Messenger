@@ -3,12 +3,12 @@
 }
 
 .back-top {
-    background-color: #935de9;
+    background-color: #8a4fe9;
     height: 20vh;
 }
 
 .back-main {
-    background-color: #ed77e5;
+    background-color: #ff0ad6;
     height: 80vh;
 }
 
@@ -54,7 +54,7 @@
     min-height: 600px;
     border-radius: 10px;
 
-    background-image: url("https://wallpapers.com/images/high/fun-chat-app-stickers-pattern-a7mhh6ay9qqcpyfh.jpg");
+    background-image: url("https://cdn.wallpapersafari.com/87/66/g7uPjL.jpg");
     
     background-size: cover ;
     background-position: top;
@@ -66,8 +66,11 @@
 }
 
 .message-box {
-    background-color: #1d1616;
+    background-color: #16063b;
     color: #441212;
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 
