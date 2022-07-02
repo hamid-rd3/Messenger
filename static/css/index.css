@@ -112,3 +112,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(220, 36, 36); 
     }
+.chat-top {
+    background-color: #da831f;
+    min-height: 50px;
+    border-radius: 20px;
+
+  }

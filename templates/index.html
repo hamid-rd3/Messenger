@@ -27,7 +27,7 @@
                                 <td><img src="{% static 'assets/dp-icon.png' %}" width="30" height="30" alt=""
                                         class="profile-image rounded-circle">
                                 </td>
-                                <td><a href="">{{user.username}}</a></td>
+                                <td><a href="{% url 'chat' username=user.username %}">{{user.username}}</a></td>
                             </tr>
                             {% endfor %}
                         </tbody>
