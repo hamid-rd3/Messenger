@@ -27,7 +27,7 @@
             <div class="col-sm-8">
                 <img src="{% static 'assets/dp-icon.png' %}" width="30" height="30" alt=""
                     class="profile-image rounded-circle" style="margin-top:0.5rem;">
-                <span class="ml-2">{{user.username}}</span>
+                <span class="ml-2" style="margin-top: 1.5rem;">{{user.username}}</span>
             </div>
         </div>
 
@@ -43,7 +43,7 @@
                                 <td><img src="{% static 'assets/dp-icon.png' %}" width="30" height="30"
                                         class="profile-image rounded-circle">
                                 </td>
-                                <td><a href="{% url 'chat' username=user.username %}" id="user">{{user.username}}</a></td>
+                                <td><a href="{% url 'chat' username=user.username %}" id="user_chat-top">{{user.username}}</a></td>
                             </tr>
                             {% endfor %}
                         </tbody>

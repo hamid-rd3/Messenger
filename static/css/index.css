@@ -90,6 +90,11 @@
 .form-control{
     color: #2200fd;
 }
+
+#user_chat-top{
+    color: #a5e119;
+    text-decoration: none;
+}
 /* 
 .row{
     --bs-gutter-x: 1.5rem;
