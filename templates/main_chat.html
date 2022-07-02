@@ -107,11 +107,10 @@
             </div>
         </div>
     </div>
-
-
-
 </div>
+
 {{user.id|json_script:"json-username"}}
 {{request.user.username|json_script:"json-message-username"}}
 
+<script src="{% static 'js/chat.js' %}"></script>
 {% endblock %}
