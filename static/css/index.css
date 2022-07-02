@@ -25,6 +25,9 @@
     left: 0;
     right: 0;
     border-radius: 10px;
+
+
+
 }
 
 .contacts {
@@ -44,4 +47,31 @@
 .table-hover {
     background-color: #000000;
     border-radius: 10px;
+}
+
+.message-area {
+    background-color: #323232;
+    min-height: 600px;
+    border-radius: 10px;
+
+}
+
+.message-table-scroll {
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.message-box {
+    background-color: #393939;
+    color: #441212;
+}
+
+.btn {
+    background-color: #a90101;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
 }
