@@ -19,9 +19,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from chat.views import index, chatPage
-
+from chat import views as chat_views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index, name="home"),
     path("<str:username>", chatPage, name="chat"),
+        path('register/', chat_views.register, name='register'),
 ]
