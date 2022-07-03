@@ -34,18 +34,19 @@
     background-color: #2d2d2d;
     min-height: 600px;
     border-radius: 10px;
+    background-image: url("https://www.wallpapertip.com/wmimgs/7-74825_best-wallpaper-for-whatsapp.jpg");
+
 }
 
 .contact-table-scroll {
     width: 100%;
     height: 100%;
-    overflow: scroll;
+    overflow:scroll;
     height: 700px;
     background-color: #2d2d2d;
 
-    /* background-image: url("https://wallpaperscart.com/whatsapp-wallpapers-backgrounds/"); */
     background-image: url("https://www.wallpapertip.com/wmimgs/7-74825_best-wallpaper-for-whatsapp.jpg");
-    
+
 
 }
 
@@ -86,7 +87,6 @@
 }
 #message_input{
     width: 120%;
-    font-family:'Times New Roman', Times, serif
 }
 
 .btn {
@@ -95,7 +95,6 @@
     color: #ffffff;
     font-weight: bold;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     margin: 5px;
 }
@@ -107,34 +106,20 @@
 #user_chat-top{
     color: hsl(353, 82%, 15%);
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 #iconblock_chat-top{
     background-color: rgb(78, 111, 174 );
     border-radius: 1rem;
-    /* background-color: #0fbea7; */
 }
-/* 
-.row{
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-}
- */
+
 ::-webkit-scrollbar {
     width: 0.8rem;
     height: 0.8rem;
     }
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(29, 196, 205); 
+    box-shadow: inset 0 0 5px rgb(242, 49, 15); 
     border-radius: 50rem;
     }
   ::-webkit-scrollbar-thumb {
@@ -145,7 +130,6 @@
     background: rgb(220, 36, 36); 
     }
 .chat-top {
-    /* background-color: #da831f; */
     background-color: cadetblue;
     min-height: 50px;
     border-radius: 20px;

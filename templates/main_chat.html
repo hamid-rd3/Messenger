@@ -59,7 +59,7 @@
                         <tbody id='chat-body'>
                             {% for message in messages %}
                             {% if message.sender == request.user.username %}
-                            <tr>
+                            <tr id="iconblock_chat-top">
                                 <td>
                                     <p class="bg-success p-2 mt-2 mr-5 shadow-sm text-white float-right rounded">
                                         {{message.message}}
