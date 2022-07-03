@@ -23,5 +23,5 @@ from chat.views import index, chatPage
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index, name="home"),
-    path("chat/", chatPage, name="chat"),
+    path("<str:username>", chatPage, name="chat"),
 ]

@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "channels",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -71,11 +72,21 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "Messenger.wsgi.application"
+# WSGI_APPLICATION = "Messenger.wsgi.application"
+ASGI_APPLICATION = "Messenger.asgi.application"
 
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {"hosts": [("localhost", 6379)]},
+    }
+}
+
 
 DATABASES = {
     "default": {
