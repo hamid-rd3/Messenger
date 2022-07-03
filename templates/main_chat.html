@@ -111,6 +111,8 @@
 
 {{user.id|json_script:"json-username"}}
 {{request.user.username|json_script:"json-message-username"}}
+{% endblock %}
 
+{% block javascript %}
 <script src="{% static 'js/chat.js' %}"></script>
 {% endblock %}

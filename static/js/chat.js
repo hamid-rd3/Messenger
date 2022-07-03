@@ -2,11 +2,11 @@
 const user_id = JSON.parse(document.getElementById('json-username').textContent);
 
 // message_username: message from the user
-const messages_user = JSON.parse(document.getElementById('json-messages-username').textContent);
+const message_username = JSON.parse(document.getElementById('json-message-username').textContent);
 
 // Establishing a connection with the server
 const socket = new WebSocket(
-    'ws://' + window.location.host + '/ws/' + id + '/'
+    'ws://' + window.location.host + '/ws/' + user_id + '/'
 );
 
 // Opening the connection
